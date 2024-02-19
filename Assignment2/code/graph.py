@@ -1,22 +1,21 @@
 import matplotlib.pyplot as plt
 
 # Read data from the file
-with open('values.dat', 'r') as file:
-    data = file.readlines()
+with open("values.dat", "r") as file:
+    data = [float(line.strip()) for line in file.readlines()]
 
-# Extract x and y values
-x_values = []
-y_values = []
-for line in data:
-    parts = line.split()
-    x_values.append(int(parts[0]))
-    y_values.append(float(parts[1]))
+# Extract x and y values for the stem plot
+x = list(range(len(data)))
+y = data
 
-# Plot the points
-plt.plot(x_values, y_values, marker='o', linestyle='-')
+# Create stem plot
+plt.stem(x, y, use_line_collection=True)
+
+# Add labels and title
 plt.xlabel('n')
-plt.ylabel('x[n]')
-plt.title('x(n) = (-1)^(n) * 5^(n+2)')
-plt.grid(True)
+plt.ylabel('x(n)')
+plt.title('')
+
+# Show plot
 plt.show()
 
