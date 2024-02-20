@@ -1,3 +1,4 @@
+% \iffalse
 \let\negmedspace\undefined
 \let\negthickspace\undefined
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
@@ -12,13 +13,21 @@
 \usepackage{enumitem}
 \usepackage{mathtools}
 \usepackage{gensymb}
+\usepackage{comment}
 \usepackage[breaklinks=true]{hyperref}
-\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+\usepackage{tkz-euclide} 
 \usepackage{listings}
-\usepackage{gvv}
-\usepackage{amsmath}
-
-        
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
 
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{problem}{Problem}
@@ -32,14 +41,9 @@
 \newcommand{\define}{\stackrel{\triangle}{=}}
 \theoremstyle{remark}
 \newtheorem{rem}{Remark}
-
-%\bibliographystyle{ieeetr}
 \begin{document}
-%
 
 \bibliographystyle{IEEEtran}
-
-
 \vspace{3cm}
 
 \title{
@@ -55,21 +59,10 @@ Indian Institute of Technology Hyderabad
 
 (EE23BTECH11206)
 }	
-
-
-
-
-
 \maketitle
-
 \newpage
-
-
-
 \bigskip
 
-\renewcommand{\thefigure}{\arabic{figure}}
-\renewcommand{\thetable}{\arabic{table}}
 
 
 \section{Question 11.9.1 (5)}
@@ -100,8 +93,7 @@ Indian Institute of Technology Hyderabad
  \end{align}
  
 On substituting n = 0, 1, 2, 3 and 4, we get the first five terms.
-
-Hence, the required terms are 25, –125, 625, –3125, 15625 .\\
+Hence, the required terms are 25, -125, 625, -3125, 15625 .\\
 
 \begin{center}
  $x(n) \longleftrightarrow X(z)$
