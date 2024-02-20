@@ -95,20 +95,22 @@ Indian Institute of Technology Hyderabad
 \end{table}
 
 \begin{align}
-	     x(n) &= (-1)^{n}.5^{n+2}.u(n)
+	     x(n) &= (-1)^{n}.5^{n+2}.u(n) \\
+	     &=25.(-5)^{n}.u(n)
  \end{align}
  
 On substituting n = 0, 1, 2, 3 and 4, we get the first five terms 
 
-Hence, the required terms are 25, –125, 625, –3125, 15625 .
+Hence, the required terms are 25, –125, 625, –3125, 15625 .\\
+We know that for $x(n) = a^{n}.u(n)$ , the value of $X(z) = \dfrac{1}{1 - a.z^{-1}} \; ; \; |z| > |a|$
 
 \begin{center}
-$x(n) \longleftrightarrow X(z)$
+ $x(n) \longleftrightarrow X(z)$
 \end{center}
 
 
  \begin{align}
-	   X(z) &= \dfrac{25z}{z+5} \; ; \;( |z| > 5 )
+	   X(z) &= \dfrac{25}{1 + 5.z^{-1}} \; ; \;( |z| > 5 )
  \end{align}
 
 
