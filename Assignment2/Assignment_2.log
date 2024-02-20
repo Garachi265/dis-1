@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.5)  20 FEB 2024 12:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.5)  20 FEB 2024 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1197,6 +1197,10 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 7
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 ) (./table/table2.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
 <figures/grasi2.png, id=15, 427.1157pt x 312.2064pt>
 File: figures/grasi2.png Graphic file (type png)
 <use figures/grasi2.png>
@@ -1216,8 +1220,8 @@ Package rerunfilecheck Info: File `Assignment_2.out' has not changed.
 (rerunfilecheck)             Checksum: 9CC3C11F0D458C840A0A05414932E234;233.
  ) 
 Here is how much of TeX's memory you used:
- 29150 strings out of 480154
- 574931 string characters out of 5893789
+ 29151 strings out of 480154
+ 574943 string characters out of 5893789
  827568 words of memory out of 5000000
  46479 multiletter control sequences out of 15000+600000
  540104 words of font info for 173 fonts, out of 8000000 for 9000
@@ -1227,13 +1231,14 @@ Here is how much of TeX's memory you used:
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
-fonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Assignment_2.pdf (1 page, 57932 bytes).
+fonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Assignment_2.pdf (1 page, 60332 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
+ 76 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
  34 words of extra memory for PDF output out of 10000 (max. 10000000)
 
